@@ -12,7 +12,8 @@
 </p>
 </div>
 
-## Fundamentos
+
+## Fundamentos NodeJS
 
 Aplicativo para agendamentos de serviços de beleza(Em desenvolvimento).
 
