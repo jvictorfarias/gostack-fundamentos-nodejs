@@ -1,4 +1,3 @@
-<div>
 <p align="center" style="border-bottom: 1px solid #eee; padding: 10px">
 <img src="https://rocketseat.com.br/static/images/bootcamp/logo-gostack.svg" width="200px" heigth="200px"/>
 
@@ -10,13 +9,16 @@
 
 </div>
 </p>
-</div>
 
 
-### Fundamentos NodeJS
 
-Aplicativo para agendamentos de serviços de beleza(Em desenvolvimento).
+### :rocket: Fundamentos NodeJS
 
+### :rocket: Sobre o desafio
+
+Nesse desafio, você deve criar uma aplicação para continuar treinando o que você aprendeu até agora no Node.js junto ao TypeScript, utilizando o conceito de models, repositories e services!
+
+Essa será uma aplicação para que deve armazenar transações financeiras de entrada e saída, que deve permitir o cadastro e a listagem dessas transações.
 
 ### :memo: Licença
 
