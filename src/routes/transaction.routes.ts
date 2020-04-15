@@ -1,20 +1,26 @@
 import { Router } from 'express';
 
 import TransactionsRepository from '../repositories/TransactionsRepository';
+
 import CreateTransactionService from '../services/CreateTransactionService';
+import ListTransactionsService from '../services/ListTransactionsService';
 
 const transactionRouter = Router();
 const transactionsRepository = new TransactionsRepository();
 
-// const transactionsRepository = new TransactionsRepository();
+transactionRouter.get('/', (request, response) => {
+  try {
+    const listTransactions = new ListTransactionsService(
+      transactionsRepository,
+    );
 
-// transactionRouter.get('/', (request, response) => {
-//   try {
-//     // TODO
-//   } catch (err) {
-//     return response.status(400).json({ error: err.message });
-//   }
-// });
+    const listOfTransactions = listTransactions.execute();
+
+    return response.status(200).json(listOfTransactions);
+  } catch (err) {
+    return response.status(400).json({ error: err.message });
+  }
+});
 
 transactionRouter.post('/', (request, response) => {
   try {
