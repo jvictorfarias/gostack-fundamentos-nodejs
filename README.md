@@ -3,16 +3,16 @@
 
 <div align="center">
 
-[![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://github.com/jvictorfarias/gobarber/LICENSE.md)
-![GitHub last commit](https://img.shields.io/github/last-commit/jvictorfarias/gobarber?color=green)
-![GitHub top language](https://img.shields.io/github/languages/top/jvictorfarias/gobarber)
+[![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://github.com/jvictorfarias/fundamentos-nodejs/LICENSE.md)
+![GitHub last commit](https://img.shields.io/github/last-commit/jvictorfarias/fundamentos-nodejs?color=green)
+![GitHub top language](https://img.shields.io/github/languages/top/jvictorfarias/fundamentos-nodejs)
 
 </div>
 </p>
 
 
 
-### :rocket: Fundamentos NodeJS
+### Fundamentos NodeJS
 
 ### :rocket: Sobre o desafio
 
